@@ -1,5 +1,5 @@
-### 🔥
-# Configure Windows for Web Development 💻  
+
+# 🔥 Configure Windows for Web Development 💻  
 ![Screen Shot](images/scrot1.png)
 
 1. **Install Powershell 7** 
@@ -16,7 +16,6 @@
 1. **Nvchad Neovim**
 1. **Install python**
 1. **Install rust**  
-1. **Install rust-analyzer**
 12. **Install fzf, psfzf**
 1. **Oh My Posh**
 1. **Powershell profile**
@@ -36,7 +35,7 @@
 
 ### Install Nerd Fonts  
 [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0)  
-[**My Consolas NF**](https://github.com/barungh/consolas-powerline)  
+[**My Consolas NF**](https://github.com/barungh/my-nerd-fonts)  
 
 ### Install Terminal icons  
 [Powershell Terminal Icons](https://github.com/devblackops/Terminal-Icons)
@@ -79,7 +78,7 @@ choco install ripgrep
 
 **Install [Packer](https://github.com/wbthomason/packer.nvim) first**   
 ```ps
-git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
 ```
 ### My Neovim Configuration
@@ -101,10 +100,6 @@ python
 ### Install rust
 [Rust download page](https://www.rust-lang.org/tools/install)
 
-### Install rust analyzer  
-```ps 
-choco install rust analyzer
-```
 
 ### Fzf and psfzf
 ```ps
@@ -121,10 +116,17 @@ choco install oh-my-posh
 
 . $profile # refresh environment / reload ps profile
 
+Import-Module -Name Oh-My-Posh
+
 Get-PoshThemes # list all available themes
 
 ```
   
+### Install Posh-git  
+*Executing this command will install posh-git for current user porfile*  
+```ps 
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
 
 ### Configure powershell profile  
 [Powershell Profile](https://devblogs.microsoft.com/scripting/understanding-the-six-powershell-profiles/)  
@@ -135,24 +137,20 @@ nvim $PROFILE
 
 ### My powershell profile  
 ```ps 
-Import-Module -Name Terminal-Icons # importing terminal icons module on startup of PS
-Import-Module posh-git # importing posh-git for git status on terminal prompt
-Import-Module PSFzf # importing PS fuzzy finder module
+Import-Module -Name Terminal-Icons 
+Import-Module oh-my-posh
+Import-Module posh-git 
+Import-Module PSFzf 
 
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 
-# Removing default PS history search keybindings
-Remove-PSReadlineKeyHandler 'Ctrl+r' 
-Remove-PSReadlineKeyHandler 'Ctrl+t'
-
-# setting alias for ls and ll shortcuts
 Set-Alias ls Get-ChildItem | Format-Table
 Set-Alias ll Get-ChildItemColor | Format-Table
 
-# setting PS prompt theme from Oh-my-posh module
 Set-PoshPrompt -Theme patriksvensson
 
-# Starting ssh-agent manually
 Start-Service ssh-agent
+
 ```
 
 #### ssh-agent 
@@ -176,6 +174,9 @@ choco install gh
 ```ps 
 gh auth login
 ```
+
+![Gh auth login screen shot](images/gh_auth.png)
+
 ### configure git 
 > create a project 
 ```ps 
