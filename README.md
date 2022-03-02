@@ -1,30 +1,7 @@
+# 🔥 Configure Windows for Web Development   
 
-# 🔥 Configure Windows for Web Development 💻  
-![Screen Shot](images/scrot1.png)
+![Steps list](images/list.svg)
 
-1. **Install Powershell 7** 
-2. **Install Windows Terminal**  
-1. **Install Nerd fonts**  
-1. **Install terminal icons**
-3. **Install Chocolatey**  
-4. **Install Scoop**  
-5. **Install git**  
-5. **Install Neovim** 
-6. **Install mingw**  
-7. **Install nodejs and npm**  
-1. **Install ripgrep**
-1. **Nvchad Neovim**
-1. **Install python**
-1. **Install rust**  
-12. **Install fzf, psfzf**
-1. **Oh My Posh**
-1. **Powershell profile**
-1. **ssh-agent**
-13. **Installing github-cli** 
-14. **Create github account**
-15. **configuring git with ssh and access token**
-11. **Install themes**
-16. **Install Microsoft Power Toys**  
 ***
 
 ### Install powershell 7
@@ -109,18 +86,21 @@ Install-Module -Name PSFzf -RequiredVersion 2.4.0
 ```
 
 ## Oh-My-Posh
-Oh My Posh [installation instruction]
+Oh My Posh [installation instruction](https://ohmyposh.dev/docs/windows)
 ```ps 
 
 choco install oh-my-posh
 
-. $profile # refresh environment / reload ps profile
+Invoke-Expression (oh-my-posh --init --shell pwsh --config "$env:LOCALAPPDATA/Programs/oh-my-posh/themes/themename.omp.json")
 
-Import-Module -Name Oh-My-Posh
+oh-my-posh --init --shell pwsh --config $env:LOCALAPPDATA\Programs\oh-my-posh\themes/di4am0nd.omp.json | Invoke-Expression
+
 
 Get-PoshThemes # list all available themes
 
-```
+```  
+
+![Oh My Posh vidoe](images/winconfig.gif)
   
 ### Install Posh-git  
 *Executing this command will install posh-git for current user porfile*  
@@ -137,8 +117,11 @@ nvim $PROFILE
 
 ### My powershell profile  
 ```ps 
+Invoke-Expression (oh-my-posh --init --shell pwsh --config "$env:LOCALAPPDATA/Programs/oh-my-posh/themes/themename.omp.json")
+
+oh-my-posh --init --shell pwsh --config $env:LOCALAPPDATA\Programs\oh-my-posh\themes/di4am0nd.omp.json | Invoke-Expression
+
 Import-Module -Name Terminal-Icons 
-Import-Module oh-my-posh
 Import-Module posh-git 
 Import-Module PSFzf 
 
@@ -147,7 +130,6 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory
 Set-Alias ls Get-ChildItem | Format-Table
 Set-Alias ll Get-ChildItemColor | Format-Table
 
-Set-PoshPrompt -Theme patriksvensson
 
 Start-Service ssh-agent
 
@@ -218,6 +200,8 @@ copy your scheme on proper place
 > Install power toys and configure it  
 test launcher
 test color picker
+
+![Screen Shot](images/scrot1.png)
 
 ### Watch it on Youtube 😎  
 [![Web Development in Neovim](http://img.youtube.com/vi/JF9q6_c-_Ww/0.jpg)](http://www.youtube.com/watch?v=JF9q6_c-_Ww)

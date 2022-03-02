@@ -1,0 +1,124 @@
+<svg id="Heading" xmlns="http://www.w3.org/2000/svg" width="683" height="384" viewBox="0 0 683 384">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #cbbee9;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 25px;
+      }
+
+      .cls-2 {
+        fill: #474747;
+        font-family: Catamaran;
+      }
+
+      .cls-3 {
+        fill-opacity: 0;
+        stroke: #081314;
+        stroke-width: 1px;
+      }
+
+      .cls-4 {
+        font-family: "Consolas NF";
+        font-style: italic;
+      }
+
+      .cls-5 {
+        fill: #fb4246;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="683" height="384"/>
+  <text id="Step_I_follow_to_customize_my_Windows_machine" data-name="Step I follow to customize my Windows machine" class="cls-2" x="73" y="43">Step I follow to customize my Windows machine</text>
+  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-3" x="64" y="15" width="550" height="39" rx="10" ry="10"/>
+  <g>
+    <text id="Install_Powershell_7" data-name="Install Powershell 7" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 88.856)">Install Powershell 7</text>
+    <circle class="cls-5" cx="36" cy="82" r="5"/>
+  </g>
+  <g id="Group_1_copy" data-name="Group 1 copy">
+    <text id="Install_Windows_Terminal" data-name="Install Windows Terminal" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 116.856)">Install Windows Terminal</text>
+    <circle class="cls-5" cx="36" cy="110" r="5"/>
+  </g>
+  <g id="Group_1_copy_2" data-name="Group 1 copy 2">
+    <text id="Install_terminal_icons" data-name="Install terminal icons" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 171.856)">Install terminal icons</text>
+    <circle class="cls-5" cx="36" cy="165" r="5"/>
+  </g>
+  <g id="Group_1_copy_3" data-name="Group 1 copy 3">
+    <text id="Install_Nerd_fonts" data-name="Install Nerd fonts" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 144.856)">Install Nerd fonts</text>
+    <circle class="cls-5" cx="36" cy="138" r="5"/>
+  </g>
+  <g id="Group_1_copy_4" data-name="Group 1 copy 4">
+    <text id="Install_Chocolatey" data-name="Install Chocolatey" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 199.856)">Install Chocolatey</text>
+    <circle class="cls-5" cx="36" cy="193" r="5"/>
+  </g>
+  <g id="Group_1_copy_5" data-name="Group 1 copy 5">
+    <text id="Install_Scoop" data-name="Install Scoop" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 227.856)">Install Scoop</text>
+    <circle class="cls-5" cx="36" cy="221" r="5"/>
+  </g>
+  <g id="Group_1_copy_6" data-name="Group 1 copy 6">
+    <text id="Install_Neovim" data-name="Install Neovim" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 282.856)">Install Neovim</text>
+    <circle class="cls-5" cx="36" cy="276" r="5"/>
+  </g>
+  <g id="Group_1_copy_8" data-name="Group 1 copy 8">
+    <text id="Install_mingw" data-name="Install mingw" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 310.856)">Install mingw</text>
+    <circle class="cls-5" cx="36" cy="304" r="5"/>
+  </g>
+  <g id="Group_1_copy_9" data-name="Group 1 copy 9">
+    <text id="Install_nodejs" data-name="Install nodejs" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 335.856)">Install nodejs</text>
+    <circle class="cls-5" cx="36" cy="329" r="5"/>
+  </g>
+  <g id="Group_1_copy_11" data-name="Group 1 copy 11">
+    <text id="Install_ripgrep" data-name="Install ripgrep" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 361.856)">Install ripgrep</text>
+    <circle class="cls-5" cx="36" cy="355" r="5"/>
+  </g>
+  <g id="Group_1_copy_7" data-name="Group 1 copy 7">
+    <text id="Install_git_posh-git" data-name="Install git, posh-git" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 43.639, 255.856)">Install git, posh-git</text>
+    <circle class="cls-5" cx="36" cy="249" r="5"/>
+  </g>
+  <g>
+    <text id="Nvchad_Neovim" data-name="Nvchad Neovim" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 88.856)">Nvchad Neovim</text>
+    <circle class="cls-5" cx="366" cy="82" r="5"/>
+  </g>
+  <g id="Group_1_copy-2" data-name="Group 1 copy">
+    <text id="Install_python" data-name="Install python" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 116.856)">Install python</text>
+    <circle class="cls-5" cx="366" cy="110" r="5"/>
+  </g>
+  <g id="Group_1_copy_2-2" data-name="Group 1 copy 2">
+    <text id="Install_fzf_psfzf" data-name="Install fzf, psfzf" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 171.856)">Install fzf, psfzf</text>
+    <circle class="cls-5" cx="366" cy="165" r="5"/>
+  </g>
+  <g id="Group_1_copy_3-2" data-name="Group 1 copy 3">
+    <text id="Install_rust" data-name="Install rust" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 144.856)">Install rust</text>
+    <circle class="cls-5" cx="366" cy="138" r="5"/>
+  </g>
+  <g id="Group_1_copy_4-2" data-name="Group 1 copy 4">
+    <text id="Install_Oh_My_Posh" data-name="Install Oh My Posh" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 199.856)">Install Oh My Posh</text>
+    <circle class="cls-5" cx="366" cy="193" r="5"/>
+  </g>
+  <g id="Group_1_copy_5-2" data-name="Group 1 copy 5">
+    <text id="Edit_Powershell_profile" data-name="Edit Powershell profile" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 227.856)">Edit Powershell profile</text>
+    <circle class="cls-5" cx="366" cy="221" r="5"/>
+  </g>
+  <g id="Group_1_copy_6-2" data-name="Group 1 copy 6">
+    <text id="Install_github-cli" data-name="Install github-cli" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 282.856)">Install github-cli</text>
+    <circle class="cls-5" cx="366" cy="276" r="5"/>
+  </g>
+  <g id="Group_1_copy_8-2" data-name="Group 1 copy 8">
+    <text id="configuring_git_" data-name="configuring git " class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 310.856)">configuring git </text>
+    <circle class="cls-5" cx="366" cy="304" r="5"/>
+  </g>
+  <g id="Group_1_copy_7-2" data-name="Group 1 copy 7">
+    <text id="configure_ssh-agent" data-name="configure ssh-agent" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 255.856)">configure ssh-agent</text>
+    <circle class="cls-5" cx="366" cy="249" r="5"/>
+  </g>
+  <g id="Group_1_copy_9-2" data-name="Group 1 copy 9">
+    <text id="Install_Terminal_themes" data-name="Install Terminal themes" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 336.856)">Install Terminal themes</text>
+    <circle class="cls-5" cx="366" cy="330" r="5"/>
+  </g>
+  <g id="Group_1_copy_10" data-name="Group 1 copy 10">
+    <text id="Install_Power_Toys" data-name="Install Power Toys" class="cls-4" transform="matrix(0.836, 0, 0, 0.836, 373.639, 363.856)">Install Power Toys</text>
+    <circle class="cls-5" cx="366" cy="357" r="5"/>
+  </g>
+</svg>
