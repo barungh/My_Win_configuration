@@ -98,8 +98,6 @@ choco install oh-my-posh
 
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$env:LOCALAPPDATA/Programs/oh-my-posh/themes/themename.omp.json")
 
-oh-my-posh --init --shell pwsh --config $env:LOCALAPPDATA\Programs\oh-my-posh\themes/di4am0nd.omp.json | Invoke-Expression
-
 
 Get-PoshThemes # list all available themes
 
@@ -124,8 +122,6 @@ nvim $PROFILE
 ### My powershell profile  
 ```ps 
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$env:LOCALAPPDATA/Programs/oh-my-posh/themes/themename.omp.json")
-
-oh-my-posh --init --shell pwsh --config $env:LOCALAPPDATA\Programs\oh-my-posh\themes/di4am0nd.omp.json | Invoke-Expression
 
 Import-Module -Name Terminal-Icons 
 Import-Module posh-git 
