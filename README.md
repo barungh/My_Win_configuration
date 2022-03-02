@@ -100,8 +100,9 @@ Get-PoshThemes # list all available themes
 
 ```  
 
-![Oh My Posh vidoe](images/winconfig.gif)
-  
+https://user-images.githubusercontent.com/12285528/156334235-9b89021b-3219-41fe-8049-06d943c5e703.mp4
+
+
 ### Install Posh-git  
 *Executing this command will install posh-git for current user porfile*  
 ```ps 
