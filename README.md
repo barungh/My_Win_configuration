@@ -68,6 +68,11 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 git clone https://github.com/barungh/nvim "$env:LOCALAPPDATA\nvim"
 ```
 
+### My Neovim for Linux
+```ps 
+git clone https://github.com/barungh/nvim ~/.config/nvim --depth 1 ; nvim
+```
+
 ### Run Neovim for the first time
 ```ps 
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
