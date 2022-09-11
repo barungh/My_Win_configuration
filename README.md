@@ -58,25 +58,14 @@ choco install ripgrep
 > ***Head to installation page***  
 > [Windows Installation](https://nvchad.github.io/getting-started/setup#windows)  
 
-**Install [Packer](https://github.com/wbthomason/packer.nvim) first**   
+or, you can just use below command to get Nvchad with  
+my custom folder  
 ```ps
-git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
-
-```
-### My Neovim Configuration
-```ps 
-git clone https://github.com/barungh/nvim "$env:LOCALAPPDATA\nvim"
+git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1
+git clone https://github.com/barungh/nvim "$env:LOCALAPPDATA\nvim\lua\custom" --depth 1
 ```
 
-### My Neovim for Linux
-```ps 
-git clone https://github.com/barungh/nvim ~/.config/nvim --depth 1 ; nvim
-```
 
-### Run Neovim for the first time
-```ps 
-nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
-```
 
 ### Install Python  
 ```ps 
